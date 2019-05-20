@@ -59,6 +59,11 @@ transform: translate(-50%,-50%);
  color:white !important;
 }
 @media screen and (max-width: 480px), (max-width: 800px){
+
+.navbar{
+  width: 100%;
+}
+
  .navcolor{
    background: none;
    opacity: 0.8;
@@ -473,4 +478,8 @@ iframe{
   min-height: 500px;
   background: transparent;
  }
+
+ .wrap {
+	overflow: hidden;
+}
 }
